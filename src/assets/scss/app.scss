@@ -1,0 +1,346 @@
+@charset 'utf-8';
+@import 'settings';
+@import 'foundation';
+@import 'motion-ui';
+@include foundation-global-styles;
+@include foundation-grid;
+// @include foundation-flex-grid;
+//@include foundation-xy-grid-classes;
+@include foundation-typography;
+@include foundation-button;
+@include foundation-forms;
+// @include foundation-range-input;
+@include foundation-accordion;
+@include foundation-accordion-menu;
+@include foundation-badge;
+@include foundation-breadcrumbs;
+@include foundation-button-group;
+@include foundation-callout;
+@include foundation-card;
+@include foundation-close-button;
+@include foundation-menu;
+@include foundation-menu-icon;
+@include foundation-drilldown-menu;
+@include foundation-dropdown;
+@include foundation-dropdown-menu;
+@include foundation-responsive-embed;
+@include foundation-label;
+@include foundation-media-object;
+@include foundation-off-canvas;
+@include foundation-orbit;
+@include foundation-pagination;
+@include foundation-progress-bar;
+@include foundation-slider;
+@include foundation-sticky;
+@include foundation-reveal;
+@include foundation-switch;
+@include foundation-table;
+@include foundation-tabs;
+@include foundation-thumbnail;
+@include foundation-title-bar;
+@include foundation-tooltip;
+@include foundation-top-bar;
+@include foundation-visibility-classes;
+// @include foundation-float-classes;
+@include foundation-flex-classes;
+// @include foundation-prototype-classes;
+@include motion-ui-transitions;
+@include motion-ui-animations;
+.TestImg {
+    background-color: red;
+}
+
+body {
+    background-image: url('../img/BG_Tile.jpg');
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    color: #DDDDDD;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #DDDDDD;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #DDDDDD;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #DDDDDD;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #AAAAAA;
+}
+
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    color: #AAAAAA;
+}
+
+a {
+    text-decoration: none;
+    color: #DDDDDD;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+alt {
+    font-size: 10pt;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: #777777;
+}
+
+img {
+    display: block;
+}
+
+#TopSpacer {
+    height: 5em;
+}
+
+.GearNav {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.BackTT a {
+    color: #FFFFFF;
+}
+
+.BackTT a:hover {
+    color: #FFFFFF;
+}
+
+.BackTT {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20;
+    font-weight: bold;
+    background-color: #444444;
+    margin-top: 10%;
+}
+
+.BackTT:hover {
+    background-color: #AAA;
+}
+
+ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.NavM ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 20pt;
+    margin: 0;
+}
+
+.NavS ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-size: 24;
+    line-height: 2em;
+    margin: 0;
+}
+
+.NavS {
+    background-color: rgba(30, 30, 30, 0.80);
+}
+
+.NavL {
+    background-color: rgba(30, 30, 30, 0);
+}
+
+.is-stuck .NavL {
+    background-color: rgba(30, 30, 30, 0.80);
+}
+
+.NavM {
+    background-color: rgba(30, 30, 30, 0);
+}
+
+.is-stuck .NavM {
+    background-color: rgba(30, 30, 30, 0.80);
+}
+
+.Burger {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.TeaserLarge img {
+    width: 100%;
+}
+
+.Headline {
+    margin-top: 5%;
+}
+
+.GearBoxMedium {
+    margin-top: 35%;
+    position: absolute;
+    z-index: 1001;
+}
+
+.GearBoxSmall {
+    margin-top: 28%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.Text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContentBox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgba(150, 150, 150, 0.5);
+}
+
+.ContentHeadlineBoxTop {
+    background-color: rgba(30, 30, 30, 0.9);
+    margin-top: 5%;
+}
+
+.ContentHeadlineBox {
+    background-color: rgba(30, 30, 30, 0.9);
+}
+
+.ContentHeadline {
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+@media screen and (min-width: 40em) {
+    .ContentElement {
+        height: 20%;
+    }
+}
+
+@media screen and (max-width: 39.9375em) {
+    .ContentElement {
+        height: 15%;
+    }
+}
+
+.ContentElement {
+    position: relative;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.ContentMedia {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ContentMediaBox {
+    background-color: rgba(150, 150, 150, 0.5);
+    margin-top: 5%;
+}
+
+.InstagramElement {
+    margin-top: 15px;
+}
+
+.SpacerSoundcloud {
+    height: 2%;
+}
+
+.Video {
+    border-width: 1px;
+    border-color: #AAAAAA;
+    border-style: solid;
+    margin-top: 15px;
+}
+
+.Line {
+    border: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.LineTop {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.LineBottom {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.SMicon {
+    fill: #DDDDDD;
+}
+
+.SMicon:hover {
+    fill: #444444;
+}
+
+.SMcontainer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Footer {}
+
+.FooterShort {
+    bottom: 0;
+    width: 100%;
+}
+
+.FooterText {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: -5%;
+}
+
+.Imprint {
+    margin-top: 50px;
+}
