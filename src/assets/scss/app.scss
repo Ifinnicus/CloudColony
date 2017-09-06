@@ -96,8 +96,27 @@ h5 {
 
 p {
     font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2em;
     letter-spacing: 1px;
     color: #AAAAAA;
+}
+
+.GigDateP{
+    font-size: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+
+.GigDateH{
+    color: #FFFFFF;
+    line-height: 0.5;
+    margin-bottom: 0.25em;
+    font-size: 6em;
+    text-align: center;
+}
+
+.GigLocationP{
+    
 }
 
 a {
@@ -105,11 +124,6 @@ a {
     color: #DDDDDD;
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1.5px;
-}
-
-alt {
-    font-size: 10pt;
-    font-family: sans-serif;
 }
 
 a:hover {
@@ -231,12 +245,19 @@ ul li a {
 .ContentBox {
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: rgba(150, 150, 150, 0.5);
+    background-color: rgba(150, 150, 150, 0.50);
 }
 
 .ContentHeadlineBoxTop {
     background-color: rgba(30, 30, 30, 0.9);
     margin-top: 5%;
+}
+
+.ContentBoxGig1 {
+    background-color: rgba(100 , 100 , 100 , 0.50);
+}
+.ContentBoxGig2 {
+    background-color: rgba(150, 150, 150, 0.5);
 }
 
 .ContentHeadlineBox {
