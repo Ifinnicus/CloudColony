@@ -115,8 +115,25 @@ p {
     text-align: center;
 }
 
-.GigLocationP{
-    
+.GigLocationCityP{
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.GigLocationVenueP{
+    line-height: 0.1;
+    color: #AAAAAA;
+    font-size: 1.5rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.GigLocationVenueP a{
+    color: #FFFFFF;
+    letter-spacing: 0.2rem;
 }
 
 a {

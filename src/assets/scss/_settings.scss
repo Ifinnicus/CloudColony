@@ -119,7 +119,10 @@ monospace;
 $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
-$header-styles: ( small: ( 'h1': ('font-size': 35), 'h2': ('font-size': 20), 'h3': ('font-size': 19), 'h4': ('font-size': 18), 'h5': ('font-size': 17), 'h6': ('font-size': 16), ), medium: ( 'h1': ('font-size': 48), 'h2': ('font-size': 40), 'h3': ('font-size': 31), 'h4': ('font-size': 25), 'h5': ('font-size': 20), 'h6': ('font-size': 16), ), );
+$header-styles: ( small: ( 'h1': ('font-size': 50), 'h2': ('font-size': 20), 'h3': ('font-size': 19), 'h4': ('font-size': 18), 'h5': ('font-size': 17), 'h6': ('font-size': 16), ), medium: ( 'h1': ('font-size': 48), 'h2': ('font-size': 40), 'h3': ('font-size': 31), 'h4': ('font-size': 25), 'h5': ('font-size': 20), 'h6': ('font-size': 16), ), );
+
+$gig-header-styles: ( small: ( '.GigLocationCityP': ('font-size': 500), ), medium: ( '.GigLocationCityP': ('font-size': 100), ), );
+
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
