@@ -62,20 +62,18 @@
 @import 'util/util';
 // 1. Global
 // ---------
-$H-color: #DDDDDD;
-$Hs-color: #AAAAAA;
-$P-color: #AAAAAA;
-$A-color: #DDDDDD;
-$Ah-color: #777777;
+$dark-transparent: rgba(30,30,30,0.80);
+$light-transparent: rgba(100,100,100,0.50);
+$no-color: rgba(0,0,0,0);
 
 
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 $foundation-palette: ( primary: #1779ba, secondary: #767676, success: #3adb76, warning: #ffae00, alert: #cc4b37, );
-$light-gray: #e6e6e6;
-$medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$light-gray: #DDDDDD;
+$medium-gray: #AAAAAA;
+$dark-gray: #777777;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -128,7 +126,7 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: ( small: ( 'h1': ('font-size': 50), 'h2': ('font-size': 20), 'h3': ('font-size': 19), 'h4': ('font-size': 18), 'h5': ('font-size': 17), 'h6': ('font-size': 16), ), medium: ( 'h1': ('font-size': 48), 'h2': ('font-size': 40), 'h3': ('font-size': 31), 'h4': ('font-size': 25), 'h5': ('font-size': 20), 'h6': ('font-size': 16), ), );
 
-$gig-header-styles: ( small: ( '.GigLocationCityP': ('font-size': 500), ), medium: ( '.GigLocationCityP': ('font-size': 100), ), );
+$gig-header-styles: ( small: ( '.GigLocationCityP': ('font-size': 50rem), ), medium: ( '.GigLocationCityP': ('font-size': 100), ), );
 
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;

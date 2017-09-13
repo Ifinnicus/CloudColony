@@ -58,7 +58,7 @@ body {
 h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
-    color: $H-color;
+    color: $light-gray;
     text-align: center;
     text-transform: uppercase;
 }
@@ -67,7 +67,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    color: $H-color;
+    color: $light-gray;
     text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ h3 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    color: $H-color;
+    color: $light-gray;
     text-transform: uppercase;
 }
 
@@ -83,7 +83,7 @@ h4 {
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    color: $H-color;
+    color: $light-gray;
     text-transform: uppercase;
 }
 
@@ -91,14 +91,14 @@ h5 {
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    color: $Hs-color;
+    color: $medium-gray;
 }
 
 p {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 1.2em;
     letter-spacing: 1px;
-    color: $P-color;
+    color: $medium-gray;
 }
 
 .GigDateP{
@@ -115,7 +115,7 @@ p {
     text-align: center;
 }
 
-.GigLocationCityP{
+.GigLocationCity{
     color: white;
     text-align: left;
     font-weight: bold;
@@ -123,9 +123,9 @@ p {
     text-transform: uppercase;
 }
 
-.GigLocationVenueP{
+.GigLocationVenue{
     line-height: 0.1;
-    color: $P-color;
+    color: $medium-gray;
     font-size: 1.5rem;
     text-align: left;
     text-transform: uppercase;
@@ -138,13 +138,13 @@ p {
 
 a {
     text-decoration: none;
-    color: $A-color;
+    color: $light-gray;
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1.5px;
 }
 
 a:hover {
-    color: $Ah-color;
+    color: $dark-gray;
 }
 
 img {
@@ -163,12 +163,8 @@ img {
 }
 
 .BTTB a {
-    color: $Ah-color;
+    color: $dark-gray;
     font-family: 'Pathway Gothic One', sans-serif;
-}
-
-.BTTB a:hover {
-    color: $Ah-color;
 }
 
 .BTTB {
@@ -180,7 +176,7 @@ img {
 }
 
 .BTTB:hover {
-    background-color: $P-color;
+    background-color: $medium-gray;
 }
 
 ul li a {
@@ -208,23 +204,23 @@ ul li a {
 }
 
 .NavS {
-    background-color: rgba(30, 30, 30, 0.80);
+    background-color: $dark-transparent;
 }
 
 .NavL {
-    background-color: rgba(30, 30, 30, 0);
+    background-color: $no-color;
 }
 
 .is-stuck .NavL {
-    background-color: rgba(30, 30, 30, 0.80);
+    background-color: $dark-transparent;
 }
 
 .NavM {
-    background-color: rgba(30, 30, 30, 0);
+    background-color: $no-color;
 }
 
 .is-stuck .NavM {
-    background-color: rgba(30, 30, 30, 0.80);
+    background-color: $dark-transparent;
 }
 
 .Burger {
@@ -261,23 +257,21 @@ ul li a {
 .ContentBox {
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color: rgba(150, 150, 150, 0.50);
+    background-color: $light-transparent;
 }
 
 .ContentHeadlineBoxTop {
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: $dark-transparent;
     margin-top: 5%;
 }
 
 .ContentBoxGig1 {
-    background-color: rgba(100 , 100 , 100 , 0.50);
-}
-.ContentBoxGig2 {
-    background-color: rgba(150, 150, 150, 0.5);
+    padding-top: 1%;
+    background-color: $light-transparent;
 }
 
 .ContentHeadlineBox {
-    background-color: rgba(30, 30, 30, 0.9);
+    background-color: $dark-transparent;
 }
 
 .ContentHeadline {
@@ -295,7 +289,7 @@ ul li a {
 
 .Video {
     border-width: 1px;
-    border-color: #AAAAAA;
+    border-color: $medium-gray;
     border-style: solid;
     margin-top: 15px;
 }
@@ -303,7 +297,7 @@ ul li a {
 .Line {
     border: 1px;
     border-style: solid;
-    border-color: #ffffff;
+    border-color: white;
 }
 
 .LineTop {
@@ -317,11 +311,11 @@ ul li a {
 }
 
 .SMicon {
-    fill: #DDDDDD;
+    fill: $light-gray;
 }
 
 .SMicon:hover {
-    fill: #444444;
+    fill: $dark-gray;
 }
 
 .SMcontainer {
