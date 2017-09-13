@@ -58,7 +58,7 @@ body {
 h1 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
-    color: #DDDDDD;
+    color: $H-color;
     text-align: center;
     text-transform: uppercase;
 }
@@ -67,7 +67,7 @@ h2 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    color: #DDDDDD;
+    color: $H-color;
     text-transform: uppercase;
 }
 
@@ -75,7 +75,7 @@ h3 {
     font-family: 'Anton', sans-serif;
     letter-spacing: 2px;
     text-align: center;
-    color: #DDDDDD;
+    color: $H-color;
     text-transform: uppercase;
 }
 
@@ -83,7 +83,7 @@ h4 {
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    color: #DDDDDD;
+    color: $H-color;
     text-transform: uppercase;
 }
 
@@ -91,14 +91,14 @@ h5 {
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1px;
     text-align: center;
-    color: #AAAAAA;
+    color: $Hs-color;
 }
 
 p {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 1.2em;
     letter-spacing: 1px;
-    color: #AAAAAA;
+    color: $P-color;
 }
 
 .GigDateP{
@@ -108,7 +108,7 @@ p {
 }
 
 .GigDateH{
-    color: #FFFFFF;
+    color: white;
     line-height: 0.5;
     margin-bottom: 0.25em;
     font-size: 6em;
@@ -116,7 +116,7 @@ p {
 }
 
 .GigLocationCityP{
-    color: #FFFFFF;
+    color: white;
     text-align: left;
     font-weight: bold;
     letter-spacing: 0.2rem;
@@ -125,26 +125,26 @@ p {
 
 .GigLocationVenueP{
     line-height: 0.1;
-    color: #AAAAAA;
+    color: $P-color;
     font-size: 1.5rem;
     text-align: left;
     text-transform: uppercase;
 }
 
 .GigLocationVenueP a{
-    color: #FFFFFF;
+    color: white;
     letter-spacing: 0.2rem;
 }
 
 a {
     text-decoration: none;
-    color: #DDDDDD;
+    color: $A-color;
     font-family: 'Pathway Gothic One', sans-serif;
     letter-spacing: 1.5px;
 }
 
 a:hover {
-    color: #777777;
+    color: $Ah-color;
 }
 
 img {
@@ -162,26 +162,25 @@ img {
     margin-top: 10px;
 }
 
-.BackTT a {
-    color: #FFFFFF;
+.BTTB a {
+    color: $Ah-color;
     font-family: 'Pathway Gothic One', sans-serif;
 }
 
-.BackTT a:hover {
-    color: #FFFFFF;
+.BTTB a:hover {
+    color: $Ah-color;
 }
 
-.BackTT {
+.BTTB {
     text-align: center;
     text-transform: uppercase;
-    font-size: 20;
-    font-weight: bold;
+    font-size: 200;
     background-color: #444444;
     margin-top: 10%;
 }
 
-.BackTT:hover {
-    background-color: #AAA;
+.BTTB:hover {
+    background-color: $P-color;
 }
 
 ul li a {
@@ -284,41 +283,6 @@ ul li a {
 .ContentHeadline {
     margin-top: 2%;
     margin-bottom: 2%
-}
-
-@media screen and (min-width: 40em) {
-    .ContentElement {
-        height: 20%;
-    }
-}
-
-@media screen and (max-width: 39.9375em) {
-    .ContentElement {
-        height: 15%;
-    }
-}
-
-.ContentElement {
-    position: relative;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    text-transform: uppercase;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    overflow: hidden;
-}
-
-.ContentMedia {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.ContentMediaBox {
-    background-color: rgba(150, 150, 150, 0.5);
-    margin-top: 5%;
 }
 
 .InstagramElement {
