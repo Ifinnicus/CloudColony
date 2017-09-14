@@ -55,20 +55,26 @@
     color: $medium-gray;
 }
 
-.fbEvent{
+.GigIcon{
     @media screen and (max-width: 39.9375em) {
         margin: 0 auto 5% auto;
-        width: 100px;
+        width: 25%;
     }
     @media screen and (min-width: 40em) {
-        margin: 20% auto 0 auto;
-        width: 80px;
-    }
+        margin: 30% auto 0 auto;
+        width: 50%;
+    } 
+    @media screen and (min-width: 50em) {
+        margin: 25% auto 0 auto;
+        width: 50%;
+    } 
+    @media screen and (min-width: 55em) {
+        margin: 15% auto 0 auto;
+        width: 50%;
+    } 
     @media screen and (min-width: 64em) {
-        margin: 14% auto 0 auto;
-        width: 80px;
+        margin: 15% auto 0 auto;
+        width: 55%;
     }
     vertical-align: text-top;
-    
-
 }

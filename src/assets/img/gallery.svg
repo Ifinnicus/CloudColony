@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="184.333px" height="193px" viewBox="0 0 184.333 193" enable-background="new 0 0 184.333 193" xml:space="preserve">
+<g id="Ebene_1">
+	<g>
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="147.502" y1="3.665" x2="147.502" y2="27.5713">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#B0B0B0"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M161.917,24.571c0,1.65-1.35,3-3,3h-22.829c-1.65,0-3-1.35-3-3V6.665c0-1.65,1.35-3,3-3h22.829
+			c1.65,0,3,1.35,3,3V24.571z"/>
+		<path fill="none" stroke="#A9A9A9" stroke-miterlimit="10" d="M161.917,24.571c0,1.65-1.35,3-3,3h-22.829c-1.65,0-3-1.35-3-3
+			V6.665c0-1.65,1.35-3,3-3h22.829c1.65,0,3,1.35,3,3V24.571z"/>
+	</g>
+	<radialGradient id="SVGID_2_" cx="91.8374" cy="127.0254" r="107.1161" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#E4E4E4"/>
+	</radialGradient>
+	<path fill="url(#SVGID_2_)" stroke="#A9A9A9" stroke-miterlimit="10" d="M5.622,65.832v112.476c0,5.475,5.373,9.912,12,9.912
+		h148.432c6.627,0,12-4.437,12-9.912V65.832H5.622z"/>
+	<path fill="#145BA3" d="M178.553,66.332H5.122V35.895c0-6.893,5.607-12.5,12.5-12.5h148.432c6.893,0,12.5,5.607,12.5,12.5V66.332z
+		 M6.122,65.332h171.432V35.895c0-6.342-5.158-11.5-11.5-11.5H17.622c-6.341,0-11.5,5.158-11.5,11.5V65.332z"/>
+	<path fill="#8D8D8E" d="M166.053,23.895H17.622c-6.627,0-12,5.373-12,12v29.937h172.432V35.895
+		C178.053,29.267,172.68,23.895,166.053,23.895z"/>
+	<rect x="7.122" y="42.863" fill="none" width="170.932" height="15.801"/>
+	
+		<text transform="matrix(1 0 0 1 37.3804 57.8989)" fill="#FFFFFF" font-family="'Arial-BoldMT'" font-size="21" letter-spacing="1">GALLERY</text>
+	<circle fill="#8D8D8E" cx="91.837" cy="127.025" r="41.25"/>
+	<radialGradient id="SVGID_3_" cx="91.8374" cy="127.0254" r="28" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#7D78AD"/>
+		<stop  offset="0.1252" style="stop-color:#7B7AA9"/>
+		<stop  offset="0.3737" style="stop-color:#72799A"/>
+		<stop  offset="0.7186" style="stop-color:#596473"/>
+		<stop  offset="1" style="stop-color:#303A3E"/>
+	</radialGradient>
+	<circle fill="url(#SVGID_3_)" cx="91.837" cy="127.025" r="28"/>
+	
+		<ellipse transform="matrix(0.8941 -0.4479 0.4479 0.8941 -41.7205 59.0718)" opacity="0.1" fill="#FFFFFF" cx="104.042" cy="117.75" rx="5.125" ry="11.25"/>
+	<g>
+		<radialGradient id="SVGID_4_" cx="147.502" cy="14.167" r="8.6508" gradientUnits="userSpaceOnUse">
+			<stop  offset="0" style="stop-color:#71B2D1"/>
+			<stop  offset="1" style="stop-color:#5177AA"/>
+		</radialGradient>
+		<path fill="url(#SVGID_4_)" d="M157.593,18.083c0,1.65-1.35,3-3,3h-14.183c-1.65,0-3-1.35-3-3V10.25c0-1.65,1.35-3,3-3h14.183
+			c1.65,0,3,1.35,3,3V18.083z"/>
+		<path fill="none" stroke="#A9A9A9" stroke-miterlimit="10" d="M157.593,18.083c0,1.65-1.35,3-3,3h-14.183c-1.65,0-3-1.35-3-3
+			V10.25c0-1.65,1.35-3,3-3h14.183c1.65,0,3,1.35,3,3V18.083z"/>
+	</g>
+</g>
+<g id="Ebene_2" display="none">
+	
+		<image display="inline" overflow="visible" width="520" height="308" xlink:href="C:\Users\finn-\Desktop\Calendar-Facebook-Icon-520x308.jpg"  transform="matrix(1 0 0 1 -10 96)">
+	</image>
+</g>
+</svg>

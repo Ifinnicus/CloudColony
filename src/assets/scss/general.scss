@@ -56,7 +56,21 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    margin-top: -8%;
+    @media screen and (max-width: 25em) {
+        margin-top: -30%;
+    } 
+    @media screen and (max-width: 39.9375em) {
+        margin-top: -20%;
+    }
+    @media screen and (min-width: 40em) {
+        margin-top: -12%;
+    } 
+    @media screen and (min-width: 55em) {
+        margin-top: -10%;
+    } 
+    @media screen and (min-width: 64em) {
+        margin-top: -8%;
+    }
 }
 
 .Imprint {
