@@ -1,0 +1,56 @@
+.GearNav {
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.NavM ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 20pt;
+    margin: 0;
+}
+
+.NavS ul li a {
+    font-family: 'Anton', 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    font-size: 24;
+    line-height: 2em;
+    margin: 0;
+}
+
+.NavS {
+    background-color: $dark-transparent;
+}
+
+.NavL {
+    background-color: $no-color;
+}
+
+.is-stuck .NavL {
+    background-color: $dark-transparent;
+}
+
+.NavM {
+    background-color: $no-color;
+}
+
+.is-stuck .NavM {
+    background-color: $dark-transparent;
+}
+
+.Burger {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}

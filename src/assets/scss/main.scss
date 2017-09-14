@@ -1,0 +1,65 @@
+body {
+    background-image: url('../img/BG_Tile.jpg');
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    color: $light-gray;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: $light-gray;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    text-align: center;
+    color: $light-gray;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $light-gray;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $medium-gray;
+}
+
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    color: $medium-gray;
+}
+
+a {
+    text-decoration: none;
+    color: $light-gray;
+    font-family: 'Pathway Gothic One', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+a:hover {
+    color: $dark-gray;
+}
+
+img{
+    display: block;
+}

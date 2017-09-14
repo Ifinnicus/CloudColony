@@ -1,0 +1,50 @@
+.Text {
+    text-align: center;
+    font-weight: bold;
+}
+
+.ContentBox {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: $light-transparent;
+}
+
+.ContentHeadlineBoxTop {
+    background-color: $dark-transparent;
+    margin-top: 5%;
+}
+
+.ContentBoxGig {
+    padding-top: 1%;
+    background-color: $light-transparent;
+}
+
+.ContentHeadlineBox {
+    background-color: $dark-transparent;
+}
+
+.ContentHeadline {
+    margin-top: 2%;
+    margin-bottom: 2%
+}
+
+.InstagramElement {
+    margin-top: 15px;
+}
+
+.SpacerSoundcloud {
+    height: 2%;
+}
+
+.Video {
+    border-width: 1px;
+    border-color: $medium-gray;
+    border-style: solid;
+    margin-top: 15px;
+}
+
+.Line {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+}

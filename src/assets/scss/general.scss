@@ -1,0 +1,64 @@
+#TopSpacer {
+    height: 5em;
+}
+
+.TeaserLarge img {
+    width: 100%;
+}
+
+.Headline {
+    margin-top: 5%;
+}
+
+.GearBoxMedium {
+    margin-top: 35%;
+    position: absolute;
+    z-index: 1001;
+}
+
+.GearBoxSmall {
+    margin-top: 28%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.LineTop {
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.LineBottom {
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.BTTB a {
+    color: $dark-gray;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.BTTB {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 200;
+    background-color: #444444;
+    margin-top: 10%;
+}
+
+.BTTB:hover {
+    background-color: $medium-gray;
+}
+
+
+
+.FooterText {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: -8%;
+}
+
+.Imprint {
+    margin-top: 50px;
+}
