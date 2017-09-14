@@ -10,10 +10,16 @@
     margin-bottom: 0.25em;
     font-size: 6em;
     text-align: center;
+    font-weight: bold;
 }
 
 .GigLocationCity{
-    color: white;
+    @media screen and (max-width: 39.9375em) {
+        text-align: center;
+    }
+    line-height: 1.2;
+    font-size: 2rem;
+    color: $dark-gray;
     text-align: left;
     font-weight: bold;
     letter-spacing: 0.2rem;
@@ -21,14 +27,48 @@
 }
 
 .GigLocationVenue{
-    line-height: 0.1;
+    @media screen and (max-width: 39.9375em) {
+        text-align: center;
+    }
+    line-height: 1.2;
     color: $medium-gray;
     font-size: 1.5rem;
     text-align: left;
     text-transform: uppercase;
 }
 
-.GigLocationVenueP a{
+.GigLocationVenue a{
     color: white;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0.2;
+}
+
+.GigLocationVenue a:hover{
+    color: $dark-gray;
+    letter-spacing: 0.2;
+}
+
+.GigP{
+    @media screen and (max-width: 39.9375em) {
+        text-align: center;
+    }
+    text-align: left;
+    color: $medium-gray;
+}
+
+.fbEvent{
+    @media screen and (max-width: 39.9375em) {
+        margin: 0 auto 5% auto;
+        width: 100px;
+    }
+    @media screen and (min-width: 40em) {
+        margin: 20% auto 0 auto;
+        width: 80px;
+    }
+    @media screen and (min-width: 64em) {
+        margin: 14% auto 0 auto;
+        width: 80px;
+    }
+    vertical-align: text-top;
+    
+
 }
