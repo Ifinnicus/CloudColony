@@ -289,7 +289,7 @@ $closebutton-offset-horizontal: ( small: 0.66rem, medium: 1rem, );
 $closebutton-offset-vertical: ( small: 0.33em, medium: 0.5rem, );
 $closebutton-size: ( small: 1.5em, medium: 2em, );
 $closebutton-lineheight: 1;
-$closebutton-color: $dark-gray;
+$closebutton-color: white;
 $closebutton-color-hover: $black;
 // 16. Drilldown
 // -------------
@@ -544,14 +544,14 @@ $responsive-embed-margin-bottom: rem-calc(16);
 $responsive-embed-ratios: ( default: 4 by 3, widescreen: 16 by 9, );
 // 47. Reveal
 // ----------
-$reveal-background: $white;
+$reveal-background: $dark-gray;
 $reveal-width: 600px;
 $reveal-max-width: $global-width;
 $reveal-padding: $global-padding;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;
-$reveal-overlay-background: rgba($black, 0.45);
+$reveal-overlay-background: $dark-transparent;
 // 48. Slider
 // ----------
 $slider-width-vertical: 0.5rem;

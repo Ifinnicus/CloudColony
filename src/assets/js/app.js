@@ -10,3 +10,11 @@ import Foundation from 'foundation-sites';
 
 
 $(document).foundation();
+
+$(document).ready(function(){
+  $('.Gallery').slick({
+    arrows: true
+  });
+});
+
+$('.single-item').slick();
