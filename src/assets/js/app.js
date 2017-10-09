@@ -12,9 +12,9 @@ import Foundation from 'foundation-sites';
 $(document).foundation();
 
 $(document).ready(function(){
-  $('.Gallery').slick({
-    arrows: true
-  });
+    $('.Gallery').slick({
+        dots: true,
+        adaptiveHeight: true,
+        accessibility: true,
+    });
 });
-
-$('.single-item').slick();
