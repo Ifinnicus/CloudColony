@@ -62,11 +62,9 @@
 @import 'util/util';
 // 1. Global
 // ---------
-$dark-transparent: rgba(30,30,30,0.80);
-$light-transparent: rgba(100,100,100,0.50);
-$no-color: rgba(0,0,0,0);
-
-
+$dark-transparent: rgba(30, 30, 30, 0.80);
+$light-transparent: rgba(100, 100, 100, 0.50);
+$no-color: rgba(0, 0, 0, 0);
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -125,9 +123,7 @@ $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: ( small: ( 'h1': ('font-size': 50), 'h2': ('font-size': 20), 'h3': ('font-size': 19), 'h4': ('font-size': 18), 'h5': ('font-size': 17), 'h6': ('font-size': 16), ), medium: ( 'h1': ('font-size': 48), 'h2': ('font-size': 40), 'h3': ('font-size': 31), 'h4': ('font-size': 25), 'h5': ('font-size': 20), 'h6': ('font-size': 16), ), );
-
 $gig-header-styles: ( small: ( '.GigLocationCityP': ('font-size': 50rem), ), medium: ( '.GigLocationCityP': ('font-size': 100), ), );
-
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
@@ -425,14 +421,14 @@ $offcanvas-exit-background: rgba($white, 0.25);
 $maincontent-class: 'off-canvas-content';
 // 26. Orbit
 // ---------
-$orbit-bullet-background: $medium-gray;
-$orbit-bullet-background-active: $dark-gray;
-$orbit-bullet-diameter: 1.2rem;
+$orbit-bullet-background: $light-gray;
+$orbit-bullet-background-active: $medium-gray;
+$orbit-bullet-diameter: 0.8rem;
 $orbit-bullet-margin: 0.1rem;
 $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;
 $orbit-caption-background: rgba($black, 0.5);
-$orbit-caption-padding: 1rem;
+$orbit-caption-padding: 0.5rem;
 $orbit-control-background-hover: rgba($black, 0.5);
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
