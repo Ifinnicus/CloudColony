@@ -34,16 +34,35 @@
     <meta name="keywords" content="Cloud Colony, Cloud-Colony, experimental progressive rock, prog rock, experimental rock, Earth II, Krefeld, Germany, cloudcolony.de, Patrick Pereira, Philip Redecker, Lukas Tennie, Finn Engels">
 
     <link rel="stylesheet" href="assets/css/app.css">
+
+    <!--  GOOGLE FONTS  -->
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Pathway+Gothic+One" rel="stylesheet">
+
+
 
 </head>
 
 <body>
 
+
     {{> body}} {{> Footer}}
     <script type="text/javascript" src="assets/js/app.js"></script>
-    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <!--  SLICK  -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.GigGal').slick({
+                arrows: false,
+                dots: true,
+            });
+        });
+    </script>
 
 </body>
 

@@ -541,9 +541,9 @@ $responsive-embed-ratios: ( default: 4 by 3, widescreen: 16 by 9, );
 // 47. Reveal
 // ----------
 $reveal-background: $dark-gray;
-$reveal-width: 600px;
+$reveal-width: 100%;
 $reveal-max-width: $global-width;
-$reveal-padding: $global-padding;
+$reveal-padding: 2rem;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
 $reveal-zindex: 1005;
