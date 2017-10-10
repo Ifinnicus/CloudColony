@@ -46,12 +46,9 @@
 // @include foundation-prototype-classes;
 @include motion-ui-transitions;
 @include motion-ui-animations;
-
 @import 'main';
 @import 'general';
 @import 'news';
 @import 'nav';
 @import 'content';
 @import 'SM';
-@import 'slick/slick';
-@import 'slick/slick-theme';
