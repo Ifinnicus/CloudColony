@@ -1,9 +1,13 @@
 .BandFirstName {
     line-height: 1;
     color: white;
-    font-size: 6em;
+    font-size: 6rem;
     font-weight: bold;
     text-align: center;
+    @media screen and (max-width: 39.9375em) {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
 }
 
 .BandLastName {
@@ -14,16 +18,21 @@
     font-weight: bold;
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+    @media screen and (max-width: 39.9375em) {
+        line-height: 0;
+        font-size: 1rem;
+    }
 }
 
 .BandText {
     text-align: center;
     color: $medium-gray;
+    @media screen and (max-width: 39.9375em) {
+        line-height: 1.25rem;
+    }
 }
 
-.BandPortrait {
-    margin: 0rem auto 0rem auto;
-}
+
 
 .BandPortraitBox {
     position: relative;
@@ -34,11 +43,17 @@
         top: 25%;
         left: 47%;
     }
+    @media screen and (max-width: 39.9375em) {
+        top: 5%;
+        left: 0;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     position: absolute;
     z-index: 1000;
     left: 55%;
     top: 35%;
-
 }
 
 .BandMemberDiscriptionLukas{
