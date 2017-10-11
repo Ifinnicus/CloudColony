@@ -1,6 +1,5 @@
 .BandFirstName {
-    line-height: 0;
-    margin-top: 10rem;
+    line-height: 1;
     color: white;
     font-size: 6em;
     font-weight: bold;
@@ -9,7 +8,6 @@
 
 .BandLastName {
     line-height: 2rem;
-    margin-top: 4rem;
     font-size: 3rem;
     color: $dark-gray;
     text-align: center;
@@ -24,5 +22,55 @@
 }
 
 .BandPortrait {
-    margin: 2rem auto 2rem auto;
+    margin: 0rem auto 0rem auto;
+}
+
+.BandPortraitBox {
+    position: relative;
+}
+
+.BandMemberDiscriptionPatrick{
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        top: 25%;
+        left: 47%;
+    }
+    position: absolute;
+    z-index: 1000;
+    left: 55%;
+    top: 35%;
+
+}
+
+.BandMemberDiscriptionLukas{
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        top: 30%;
+        left: 47%;
+    }
+    position: absolute;
+    z-index: 1000;
+    left: 55%;
+    top: 35%;
+
+}
+
+.BandMemberDiscriptionPhilip{
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        top: 25%;
+        left: 15%;
+    }
+    position: absolute;
+    z-index: 1000;
+    left: 20%;
+    top: 35%;
+}
+
+.BandMemberDiscriptionFinn{
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        top: 25%;
+        left: 20%;
+    }
+    position: absolute;
+    z-index: 1000;
+    left: 30%;
+    top: 35%;
 }
