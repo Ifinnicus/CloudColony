@@ -1,6 +1,6 @@
 ---
 meta-title: Media
-meta-description: Listen to Songs by Cloud Colony from Krefeld/Germany.
+meta-description: Listen to Songs by Cloud Colony from Krefeld / Germany.
 ---
  
  {{> HeaderSub}}
@@ -8,30 +8,37 @@ meta-description: Listen to Songs by Cloud Colony from Krefeld/Germany.
 <!--  HEADLINE  -->
 <div class="row Text Headline">
     <div class="columns small-8 small-centered medium-8 medium-centered large-8 large-centered ">
-        <h1>Music</h1>
+        <h1>Media</h1>
     </div>
 </div>
 
-<div class="row ContentHeadlineBox ">
-    <div class="columns small-12 small-centered ContentHeadline ">
-        <h3>Songs taken from "Earth II" Ep</h3>
+<div class="row">
+
+    <!--  MUSIC  -->
+    <div class="small-6 columns">
+        <div class="ContentChoiceHeadline ContentChoiceHeadlineBox"><h3>Music</h3></div>
+        <a href="{{root}}/music.html"><img class="ContentChoicePic" src="{{root}}/assets/img/Media/Media_Music.jpg" alt="Cloud Colony Earth II EP, experimental progressive rocck from Krefeld"/></a>
+    </div>
+
+    <!--  FOTOS  -->
+    <div class="small-6 columns">
+            <div class="ContentChoiceHeadline ContentChoiceHeadlineBox"><h3>Fotos</h3></div>
+        <a href="{{root}}/music.html"><img class="ContentChoicePic" src="{{root}}/assets/img/Media/Media_Fotos.jpg" alt="Cloud Colony Earth II EP, experimental progressive rocck from Krefeld"/></a>
+    </div>
+
+    <!--  VIDEOS  -->
+    <div class="small-6 columns">
+            <div class="ContentChoiceHeadline ContentChoiceHeadlineBox"><h3>Videos</h3></div>
+        <a href="{{root}}/music.html"><img class="ContentChoicePic" src="{{root}}/assets/img/Media/Media_Videos.jpg" alt="Cloud Colony Earth II EP, experimental progressive rocck from Krefeld"/></a>
+    </div>
+
+    <!--  PANORAMA  -->
+    <div class="small-6 columns">
+            <div class="ContentChoiceHeadline ContentChoiceHeadlineBox"><h3>RAUM 6 PANORAMA</h3></div>
+        <a href="https://www.cloudcolony.de/Panorama"><img class="ContentChoicePic" src="{{root}}/assets/img/Media/Media_Panorama.jpg" alt="Cloud Colony Earth II EP, experimental progressive rocck from Krefeld"/></a>
     </div>
 </div>
 
-<div class="Line row"></div>
-<div class="row ContentBox">
-    {{> MusicTrack01}} {{> MusicTrack02}}
-</div>
 
-<div class="row ContentHeadlineBox ">
-        <div class="columns small-12 small-centered ContentHeadline ">
-            <h3>Pre-Ep Songs</h3>
-        </div>
-    </div>
-    
-    <div class="Line row"></div>
-    <div class="row ContentBox">
-        {{> MusicTrack03}} {{> MusicTrack04}}
-    </div>
 
 {{> BTTB}} {{> SocialMedia}}

@@ -26,7 +26,21 @@
 
 .ContentHeadline {
     margin-top: 2%;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+}
+
+.ContentChoiceHeadlineBox{
+    background-color: $dark-transparent;
+    height: 100%;
+}
+
+.ContentChoiceHeadline {
+    padding-top: 1.5%;
+    margin-top: 5%;
+}
+
+.ContentChoicePic{
+    border-top: solid 2px white;
 }
 
 .InstagramElement {

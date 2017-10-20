@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Panorama</title>
+    <meta name="description" content="Panorama — A-Frame">
+    <script src="aframe.min.js"></script>
+    <style>
+      #pan-icon {
+        position: absolute;
+        left: 50%;
+        bottom: 60px;
+        margin-left: -50px;
+        line-height: 0;
+        opacity: 1;
+        pointer-events: none;
+        -webkit-transition: opacity 0.5s linear;
+        transition: opacity 0.5s linear;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="width: 100%; height: 100%;">
+      <a-scene vr-mode-ui="enabled: false">
+        <a-sky src="pano_sphere.jpg" rotation="0 -130 0"></a-sky>
+      </a-scene>
+    </div>
+    <div id="pan-icon"><img width="100" src="360-icon.png" /></div>
+    <script>
+    /*(function () {
+
+      if ( typeof window.CustomEvent === "function" ) return false;
+
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+       }
+
+      CustomEvent.prototype = window.Event.prototype;
+
+      window.CustomEvent = CustomEvent;
+    })();*/
+
+    //console.log(window.parent.jQuery);
+
+    //function sendEvent() {
+      //var ev = new CustomEvent("panorama");
+      //window.parent.document.dispatchEvent(ev);
+      //window.parent.postMessage("hideLogo","*");
+      //window.parent.$('body').trigger('panorama');
+      //document.querySelector("body").removeEventListener("mousedown", sendEvent);
+      //document.querySelector("body").removeEventListener("touchstart", sendEvent);
+    //}
+
+    /*document.querySelector("body").addEventListener("mousedown", sendEvent);
+    document.querySelector("body").addEventListener("touchstart", sendEvent);*/
+    //document.addEventListener("panorama", function(e){console.log("Test");});
+    </script>
+    <script>
+    var isDown = false;
+
+    function down(e) {
+      e.preventDefault();
+      isDown = true;
+    }
+
+    function up(e) {
+      isDown = false;
+    }
+
+    function move() {
+      if (isDown) {
+        document.getElementById("pan-icon").style.opacity = "0";
+        document.querySelector('body').removeEventListener('touchstart', down);
+        document.querySelector('body').removeEventListener('mousedown', down);
+        document.querySelector('body').removeEventListener('touchend', up);
+        document.querySelector('body').removeEventListener('mouseup', up);
+        document.querySelector('body').removeEventListener('touchmove', move);
+        document.querySelector('body').removeEventListener('mousemove', move);
+      }
+    }
+
+    function fadeEnd() {
+      console.log("fadeEnd");
+      document.getElementById("pan-icon").removeEventListener("transitionend", fadeEnd);
+      console.log("fadeEnd2");
+      var icon = document.getElementById("pan-icon");
+      icon.parentNode.removeChild(icon);
+    }
+
+    document.querySelector('body').addEventListener('touchstart', down);
+    document.querySelector('body').addEventListener('mousedown', down);
+    document.querySelector('body').addEventListener('touchend', up);
+    document.querySelector('body').addEventListener('mouseup', up);
+    document.querySelector('body').addEventListener('touchmove', move);
+    document.querySelector('body').addEventListener('mousemove', move);
+    document.getElementById("pan-icon").addEventListener("transitionend", fadeEnd);
+    </script>
+  </body>
+</html>
