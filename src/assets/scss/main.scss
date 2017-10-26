@@ -29,17 +29,20 @@ h3 {
 
 h4 {
     font-family: 'Pathway Gothic One', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: .15rem;
     text-align: center;
-    color: $light-gray;
+    color: white;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 h5 {
     font-family: 'Pathway Gothic One', sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: .15rem;
     text-align: center;
-    color: $medium-gray;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 p {
@@ -47,7 +50,7 @@ p {
     font-size: 1.2em;
     letter-spacing: 0.1rem;
     color: $white-gray;
-    line-height: 1.2;
+    line-height: 1.4;
 }
 
 a {
