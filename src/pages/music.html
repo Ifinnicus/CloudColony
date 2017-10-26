@@ -20,7 +20,47 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
 
 <div class="Line row"></div>
 <div class="row ContentBox">
-    {{> MusicTrack01}} {{> MusicTrack02}}
+    
+    <div id="PlayerContainer">
+        
+        <div id="audio-img">
+            <img class="cover">
+        </div>
+
+        <div id="audio-player">
+            <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <input id="volume" type="range" min="1" max="20" value="10"/>
+            <br>
+            <div id="audio-buttons">
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+            </div>
+            <div class="clearfix"></div>
+            <div id="tracker">
+                <div id="progBar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration"></span>
+            </div>
+            <div class="clearfix"></div>
+            <ul id="playlist">
+                <li song="01_CLOUD-COLONY_Win-A-Flight-To-Earth-2.mp3" cover="cover.jpg" artist="Cloud Colony">Win a Flight to Earth II</li>
+                <li song="02_CLOUD-COLONY_Our-Garden.mp3" cover="cover.jpg" artist="Cloud Colony">Our Garden</li>
+                <li song="03_CLOUD-COLONY_Psychological Facet.mp3" cover="cover.jpg" artist="Cloud Colony">Psychological Facet</li>
+                <li song="04_CLOUD-COLONY_Chance.mp3" cover="cover.jpg" artist="Cloud Colony">Chance</li>
+                <li song="05_CLOUD-COLONY_Turbine.mp3" cover="cover.jpg" artist="Cloud Colony">Turbine</li>
+                <li song="06_CLOUD-COLONY_Clouds.mp3" cover="cover.jpg" artist="Cloud Colony">Clouds</li>
+                <li song="07_CLOUD-COLONY_Won.mp3" cover="cover.jpg" artist="Cloud Colony">Won</li>
+            </ul>
+        </div>
+
+    </div>
+
 </div>
 
 <div class="row ContentHeadlineBox ">

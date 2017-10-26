@@ -1,0 +1,146 @@
+#PlayerContainer{
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+    width: 320px;
+    min-height: 400px;
+    overflow: auto;
+    margin: 60px auto;
+    border: solid 1px white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#audio-image{
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#audio-info{
+    text-align: center;
+}
+
+#audio-info .artist{
+    font-weight: bold;
+}
+
+.cover{
+    width: 100%;
+    z-index: 1;
+}
+
+#audio-player input{
+    width: 95%;
+    -webkit-appearance: none !important;
+    margin-left: 2%;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+#audio-player input#volume::-webkit-slider-thumb{
+    -webkit-appearance: none !important;
+    background: url(/assets/music/img/knob.png) no-repeat;
+    height: 15px;
+    width: 15px;
+}
+
+#audio-buttons{
+    width: 90%;
+    display: block;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+button#prev{
+    width: 70px;
+    height: 70px;
+    background: url(/assets/music/img/prev.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+button#play{
+    width: 70px;
+    height: 70px;
+    background: url(/assets/music/img/play.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+button#pause{
+    width: 70px;
+    height: 70px;
+    background: url(/assets/music/img/pause.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+button#stop{
+    width: 70px;
+    height: 70px;
+    background: url(/assets/music/img/stop.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+button#next{
+    width: 70px;
+    height: 70px;
+    background: url(/assets/music/img/next.png) no-repeat;
+    float: left;
+    cursor: pointer;
+}
+
+#playlist{
+    list-style: none;
+    padding: 10px;
+}
+
+#playlist li{
+    cursor: pointer;
+    margin: 5px;
+}
+
+#playlist li.active{
+    font-weight: bold;
+    padding: 3px;
+    background: #666;
+}
+
+#tracker{
+    width: 100%;
+    position: relative;
+}
+
+#progBar{
+    
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-top: 13px;
+    height: 10px;
+    background: url(/assets/music/img/progress_bg.png) no-repeat;
+    float: left;
+}
+
+#progress{
+    background: url(/assets/music/img/progress.png) no-repeat;
+    height: 10px;
+    position: absolute;
+    display: inline-block;
+}
+
+#duration{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 4px 8px;
+    border-radius: 5px;
+}
