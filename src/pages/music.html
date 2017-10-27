@@ -2,8 +2,34 @@
 meta-title: Music
 meta-description: Listen to music by Cloud Colony. Experimental prog rock from Krefeld, Germany.
 ---
- 
+<div class="audio-player-cont">
+        <div class="logo">
+            <img src="assets/music/img/cover1.jpg" />
+        </div>
+        <div class="player">
+            <div id="songTitle" class="song-title">My Song title will goes here My Song title will goes here My Song title will goes here</div>
+            <input id="songSlider" class="song-slider" type="range" min="0" step="1" onchange="seekSong()" />
+            <div>
+                <div id="currentTime" class="current-time">00:00</div>
+                <div id="duration" class="duration">00:00</div>
+            </div>
+            <div class="controllers">
+                <img src="assets/music/img/prevBtn.png" width="30px" onclick="previous();" />
+                <img src="assets/music/img/backwardBtn.png" width="30px" onclick="decreasePlaybackRate();" />
+                <img src="assets/music/img/pauseBtn.png" width="40px" onclick="playOrPauseSong(this);" />
+                <img src="assets/music/img/forwardBtn.png" width="30px" onclick="increasePlaybackRate();" />
+                <img src="assets/music/img/nextBtn.png" width="30px" onclick="next();" />
+                <img src="assets/music/img/volumeDown.png" width="15px" />
+                <input id="volumeSlider" class="volume-slider" type="range" min="0" max="1" step="0.01" onchange="adjustVolume()" />
+                <img src="assets/music/img/volumeUp.png" width="15px" style="margin-left:2px;" />
+            </div>
+            <div id="nextSongTitle" class="song-title"><b>Next Song :</b>Next song title goes here...</div>
+        </div>
+    </div>
  {{> HeaderSub}}
+<!--  PLAYER 02  -->
+
+
 
 <!--  HEADLINE  -->
 <div class="row Text Headline">
@@ -20,7 +46,18 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
 
 <div class="Line row"></div>
 <div class="row ContentBox">
-    
+     
+</div>
+
+<div class="row ContentHeadlineBox ">
+    <div class="columns small-12 small-centered ContentHeadline ">
+        <h3>Songs taken from "Earth II" Ep</h3>
+    </div>
+</div>
+
+<div class="Line row"></div>
+<div class="row ContentBox">
+    <!--  PLAYER 01  
     <div id="PlayerContainer">
         
         <div id="audio-img">
@@ -58,9 +95,7 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
                 <li song="07_CLOUD-COLONY_Won.mp3" cover="cover.jpg" artist="Cloud Colony">Won</li>
             </ul>
         </div>
-
-    </div>
-
+    </div> -->
 </div>
 
 <div class="row ContentHeadlineBox ">
