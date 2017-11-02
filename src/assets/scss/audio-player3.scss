@@ -1,0 +1,161 @@
+.player *{
+	margin: 0;
+	padding: 0;
+}
+
+article{
+	height: 300px;
+	width: 450px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+	top: -60px;
+	left: 50%;
+	margin-left: -225px;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 1rem;
+	color: #98deff;
+}
+
+.btn-bg1{
+	position: absolute;
+	width: 125px;
+	height: 125px;
+	background: url(/assets/music/img/btn1.png);
+	top: 55px;
+	left: 20px;
+}
+
+.prev-btn{
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	top: 55px;
+	left: 20px;
+	background: url(/assets/music/img/prev.png);
+}
+
+.btn-bg2{
+	position: absolute;
+	width: 125px;
+	height: 125px;
+	background: url(/assets/music/img/btn1.png);
+	top: 55px;
+	left: 305px;
+}
+
+.next-btn{
+	position: absolute;
+	height: 125px;
+	width: 125px;
+	top: 55px;
+	left: 305px;
+	background: url(/assets/music/img/next.png);
+}
+
+.spinner-wrap{
+	display: block;
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 100;
+}
+
+.spinner-wrap *{
+	cursor: pointer;
+}
+
+
+
+.spinner-outer{
+	display: block;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border-radius: 50%;
+	background: url(/assets/music/img/spinner-outer.png) center center no-repeat;
+}
+
+.playing .spinner-outer{
+	animation-name: spin-cw;
+	animation-timing-function: linear;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+}
+
+.spinner-center{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	background: url(/assets/music/img/spinner-center.png) center center no-repeat;
+	border-radius: 50%;
+	left: 50%;
+	top: 50%;
+	margin: -75px;
+	pointer-events: none;
+}
+
+.playing .spinner-center{
+	animation-name: spin-ccw;
+	animation-timing-function: linear;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+
+}
+
+.play-sprite{
+	position: absolute;
+	left: 50%;
+	margin-left: -35px;
+	top: 50%;
+	margin-top: -35px;
+	width: 70px;
+	height: 70px;
+	overflow: hidden;
+	background: url(/assets/music/img/play-sprite.png) 0px 0px no-repeat;
+}
+
+.play-sprite:hover{
+	opacity: 0.9;
+}
+
+.playing .play-sprite{
+	background: url(/assets/music/img/play-sprite.png) 0px -70px no-repeat;
+}
+
+
+@keyframes spin-cw {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(360deg);}
+}
+
+@keyframes spin-ccw {
+	from {transform: rotate(0deg);}
+	to {transform: rotate(-360deg);}
+}
+
+.current-time{
+	margin-top: 15px;
+	float: left;
+}
+
+.song-slider{
+
+	margin-top: 20px;
+	width: 300px;
+	margin: 20 auto 0 auto;
+}
+
+.duration{
+	float: right;
+	margin-top: 15px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.song-title{
+	font-size: 1.3rem;
+}

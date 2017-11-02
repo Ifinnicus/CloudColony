@@ -31,6 +31,7 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
 
 
 
+
 <!--  HEADLINE  -->
 <div class="row Text Headline">
     <div class="columns small-8 small-centered medium-8 medium-centered large-8 large-centered ">
@@ -40,35 +41,69 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
 
 <div class="row ContentHeadlineBox ">
     <div class="columns small-12 small-centered ContentHeadline ">
-        <article class="player">
-            
-            <div class="btn-bg1"></div>
-            <div class="prev-btn"></div>
-
+        <article class="palyer">
             <div class="spinner-wrap">
                 <div class="spinner-outer"></div>
                 <div class="spinner-center"></div>
                 <div class="play-sprite"></div>
             </div>
-
-            <div class="btn-bg2"></div>
-            <div class="next-btn"></div>
-            
             <audio loop="loop">
                 <source src="{{root}}/assets/music/CloudColony-Win-a-Flight-to-Earth-II.mp3" type="audio/mp3" />
             </audio>
-
-            <div id="currentTime" class="current-time">00:00</div>
-            <input id="songSlider" class="song-slider" type="range" min="0" step="1" onchange="seekSong()" />
-            <div id="duration" class="duration">00:00</div>
-
-            <div class="clearfix"></div>
-            <div id="songTitle" class="song-title">My Song title will go here</div>
-            <div id="nextSongTitle" class="song-title"><b>Next Song :</b></br>Next song title goes here...</div>
         </article>
+            <input id="songSlider" class="song-slider" type="range" min="0" step="1" onchange="seekSong()" />
     </div>
 </div>
 
+
+<div class="row ContentHeadlineBox ">
+    <div class="columns small-12 small-centered ContentHeadline ">
+        <h3>Songs taken from "Earth II" Ep</h3>
+    </div>
+</div>
+
+<div class="Line row"></div>
+<div class="row ContentBox">
+    <!--  PLAYER 01  
+    <div id="PlayerContainer">
+        
+        <div id="audio-img">
+            <img class="cover">
+        </div>
+
+        <div id="audio-player">
+            <div id="audio-info">
+                <span class="artist"></span> - <span class="title"></span>
+            </div>
+            <input id="volume" type="range" min="1" max="20" value="10"/>
+            <br>
+            <div id="audio-buttons">
+                <button id="prev"></button>
+                <button id="play"></button>
+                <button id="pause"></button>
+                <button id="stop"></button>
+                <button id="next"></button>
+            </div>
+            <div class="clearfix"></div>
+            <div id="tracker">
+                <div id="progBar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration"></span>
+            </div>
+            <div class="clearfix"></div>
+            <ul id="playlist">
+                <li song="01_CLOUD-COLONY_Win-A-Flight-To-Earth-2.mp3" cover="cover.jpg" artist="Cloud Colony">Win a Flight to Earth II</li>
+                <li song="02_CLOUD-COLONY_Our-Garden.mp3" cover="cover.jpg" artist="Cloud Colony">Our Garden</li>
+                <li song="03_CLOUD-COLONY_Psychological Facet.mp3" cover="cover.jpg" artist="Cloud Colony">Psychological Facet</li>
+                <li song="04_CLOUD-COLONY_Chance.mp3" cover="cover.jpg" artist="Cloud Colony">Chance</li>
+                <li song="05_CLOUD-COLONY_Turbine.mp3" cover="cover.jpg" artist="Cloud Colony">Turbine</li>
+                <li song="06_CLOUD-COLONY_Clouds.mp3" cover="cover.jpg" artist="Cloud Colony">Clouds</li>
+                <li song="07_CLOUD-COLONY_Won.mp3" cover="cover.jpg" artist="Cloud Colony">Won</li>
+            </ul>
+        </div>
+    </div> -->
+</div>
 
 <div class="row ContentHeadlineBox ">
         <div class="columns small-12 small-centered ContentHeadline ">
