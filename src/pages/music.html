@@ -25,8 +25,8 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
                 <img src="assets/music/img/volumeUp.png" width="15px" style="margin-left:2px;" />
             </div>
             <div id="nextSongTitle" class="song-title"><b>Next Song :</b>Next song title goes here...</div>
-        </div> -->
-    </div>
+        </div>
+    </div>  -->
  {{> HeaderSub}}
 
 
@@ -43,19 +43,25 @@ meta-description: Listen to music by Cloud Colony. Experimental prog rock from K
         <article class="player">
             
             <div class="btn-bg1"></div>
-            <div class="prev-btn"></div>
+            <div class="prev-btn" onclick="previous();"></div>
 
-            <div class="spinner-wrap">
+            <div class="spinner-wrap" onclick="playOrPauseSong(this);">
                 <div class="spinner-outer"></div>
                 <div class="spinner-center"></div>
                 <div class="play-sprite"></div>
             </div>
 
             <div class="btn-bg2"></div>
-            <div class="next-btn"></div>
+            <div class="next-btn" onclick="next();"></div>
             
-            <audio loop="loop">
-                <source src="{{root}}/assets/music/CloudColony-Win-a-Flight-to-Earth-II.mp3" type="audio/mp3" />
+            <audio loop="loop" controls>
+                <source src="{{root}}/assets/music/Cloud-Colony-Win-a-Flight-to-Earth-II.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Our-Garden.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Psychological-Facet.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Chance.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Turbine.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Clouds.mp3" type="audio/mp3" />
+                <source src="{{root}}/assets/music/Cloud-Colony-Won.mp3" type="audio/mp3" />
             </audio>
 
             <div id="currentTime" class="current-time">00:00</div>
