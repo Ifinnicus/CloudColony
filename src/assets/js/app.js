@@ -13,25 +13,25 @@ $(document).foundation();
 
 
 //PLAYER 03
-//$(document).ready(function () {
-//
-//    $('.spinner-wrap').click(function () {
-//
-//        var $this = $(this),
-//            audio = $this.siblings('audio')[0];
-//
-//
-//        if (audio.paused === false) {
-//            audio.pause();
-//            audio.currentTime = 0;
-//            $this.removeClass('playing');
-//        }
-//        else {
-//            audio.play();
-//            $this.addClass('playing');
-//        }
-//    });
-//});
+    $(document).ready(function () {
+
+        $('.spinner-wrap').click(function () {
+
+            var $this = $(this),
+                audio = $this.siblings('audio')[0];
+
+
+            if (audio.paused === false) {
+                audio.pause();
+                // STOP statt PAUSE  audio.currentTime = 0;
+                $this.removeClass('playing');
+            }
+            else {
+                audio.play();
+                $this.addClass('playing');
+            }
+        });
+    });
 
 
 
