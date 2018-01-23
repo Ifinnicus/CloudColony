@@ -52,31 +52,33 @@
     <script type="text/javascript" src="{{root}}/assets/js/slick.min.js"></script>
 
     <!--  PLAYER jquery  -->
-    <script type="text/javascript" src="{{root}}/assets/music/jquery-2.1.1.min.js"></script>
+    <!--<script type="text/javascript" src="{{root}}/assets/music/jquery-2.1.1.min.js"></script>-->
     
     <!--  FOUNDATION  -->
     <script type="text/javascript" src="{{root}}/assets/js/app.js"></script>
+      
 
-    
     <script type="text/javascript">
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: true,
-            fade: true,
-            adaptiveHeight: true,
-            centerMode: true,
-            asNavFor: '.slider-nav'
-          });
-          $('.slider-nav').slick({
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: false,
-            centerMode: true,
-            adaptiveHeight: true,
-            focusOnSelect: true
-          });
+        $(document).ready(function(){
+            $('.slider-for').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                fade: true,
+                adaptiveHeight: true,
+                centerMode: true,
+                asNavFor: '.slider-nav'
+            });
+            $('.slider-nav').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                asNavFor: '.slider-for',
+                dots: false,
+                centerMode: true,
+                adaptiveHeight: true,
+                focusOnSelect: true
+            });
+        });
     </script>
     
 </body>
