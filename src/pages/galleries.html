@@ -41,3 +41,26 @@ meta-description: Have a look at lots of photographs of Cloud Colony. Experiment
 
 
 {{> BTTB}} {{> SocialMedia}}
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            adaptiveHeight: true,
+            centerMode: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: false,
+            centerMode: true,
+            adaptiveHeight: true,
+            focusOnSelect: true
+        });
+    });
+</script>
