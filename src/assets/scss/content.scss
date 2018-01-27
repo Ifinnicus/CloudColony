@@ -56,10 +56,15 @@
 }
 
 .Video {
-    border-width: 1px;
-    border-color: $medium-gray;
-    border-style: solid;
+    //border-width: 1px;
+    //border-color: $medium-gray;
+    //border-style: solid;
     margin-top: 15px;
+    background-color: #000;
+}
+
+.VideoFacebook {
+    margin-top: 9%;
 }
 
 .Line {
